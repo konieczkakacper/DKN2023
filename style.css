@@ -51,7 +51,7 @@ html {
 @media only screen and (max-width: 600px) {
     /* Dla urządzeń o szerokości mniejszej niż 600 pikseli */
     .center {
-        font-size: 30px; /* zmniejszenie rozmiaru czcionki */
+        font-size: 35px; /* zmniejszenie rozmiaru czcionki */
     }
 
     .center-text{
@@ -59,15 +59,15 @@ html {
     }
 
     .li-text{
-        font-size:30px;
+        font-size:35px;
     }
 }
 
 ul{
-    margin-left: 10%;
+    margin-left: 8%;
 }
 img {
     margin-left: 45%;
-    max-width: 10%;
-    max-height: 10%;
+    max-width: 20%;
+    max-height: 20%;
 }
