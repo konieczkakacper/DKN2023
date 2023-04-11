@@ -1,10 +1,8 @@
 @font-face
 
 {
-
     font-family: Alegreya;
     src:url(Alegreya-VariableFont_wght.ttf);
-
 }
 h1 {
     font-family: Alegreya;
@@ -17,6 +15,7 @@ li{
 p{
     font-family: Alegreya;
 }
+
 #fade {
     min-height: 100%;
     background: rgb(136,161,237);
@@ -24,7 +23,7 @@ p{
 
 }
 
-html {
+body {
     height: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
