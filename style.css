@@ -17,25 +17,27 @@ p{
 }
 
 #fade {
-    min-height: 110%;
+    min-height: 140%;
     background: rgb(136,161,237);
     background: linear-gradient(189deg, rgba(136,161,237,1) 0%, rgba(173,219,205,1) 60%);
 
 }
 
-body {
-    height: 110%;
+html {
+    height: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background: rgb(136,161,237);
-    background-repeat:no-repeat;
     background: -webkit-linear-gradient( to left top, blue, red);
     background: -moz-linear-gradient( to left top, blue, red);
     background: -ms-linear-gradient( to left top, blue, red);
     background: -o-linear-gradient( to left top, blue, red);
     background: linear-gradient(189deg, rgba(136,161,237,1) 0%, rgba(173,219,205,1) 60%);
+
+    background-repeat:no-repeat;
+    background-attachment: fixed;
 }
 
 .center {
@@ -63,6 +65,10 @@ body {
 
     .li-text{
         font-size:35px;
+    }
+
+    .html{
+        height: 110%;
     }
 }
 
