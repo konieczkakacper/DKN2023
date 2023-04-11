@@ -1,3 +1,18 @@
+@font-face
+
+{
+
+    font-family: Alegreya;
+    src:url(Alegreya-VariableFont_wght.ttf);
+
+}
+h1 {
+    font-family: Alegreya;
+}
+
+li{
+    font-family: Alegreya;
+}
 #fade {
     min-height: 100%;
     background: rgb(136,161,237);
@@ -30,13 +45,13 @@ html {
 }
 
 .li-text{
-    font-size: 30px;
+    font-size: 40px;
 }
 /* Responsywność */
 @media only screen and (max-width: 600px) {
     /* Dla urządzeń o szerokości mniejszej niż 600 pikseli */
     .center {
-        font-size: 18px; /* zmniejszenie rozmiaru czcionki */
+        font-size: 30px; /* zmniejszenie rozmiaru czcionki */
     }
 
     .center-text{
@@ -49,5 +64,10 @@ html {
 }
 
 ul{
-    margin-left: 19%;
+    margin-left: 10%;
+}
+img {
+    margin-left: 45%;
+    max-width: 10%;
+    max-height: 10%;
 }
