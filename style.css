@@ -13,6 +13,10 @@ h1 {
 li{
     font-family: Alegreya;
 }
+
+p{
+    font-family: Alegreya;
+}
 #fade {
     min-height: 100%;
     background: rgb(136,161,237);
@@ -66,6 +70,14 @@ html {
 ul{
     margin-left: 8%;
 }
+
+li{
+    position: relative;
+    margin: 0;
+    padding-bottom: 1em;
+    padding-left: 20px;
+}
+
 img {
     margin-left: auto;
     margin-right: auto;
@@ -73,4 +85,8 @@ img {
     max-height: 25%;
     height: auto;
     display: block;
+}
+
+.none_dot {
+    list-style-type: none;
 }
